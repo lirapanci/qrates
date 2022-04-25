@@ -20,7 +20,7 @@
         <?php echo get_custom_logo(); ?>
     </div>
 
-    <div class="flex items-center uppercase underline">
+    <div class="flex items-center uppercase">
         <?php wp_nav_menu(array(
                 'theme_location' => 'header-menu',
                 'containers_class' => 'custom-menu-class')
