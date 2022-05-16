@@ -4,7 +4,11 @@ module.exports = {
     '*.php',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'roboto': ['roboto', 'sans-serif']
+      },
+    },
   },
   plugins: [],
 }

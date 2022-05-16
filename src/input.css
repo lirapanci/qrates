@@ -9,3 +9,44 @@
 #menu-header-menu li{
     margin-left: 15px;
 }
+
+
+
+
+@media (min-width: 480px) {
+    .main-heading::after {
+        content: " ";
+        display: block;
+        position: absolute;
+        width: 105%;
+        height: 9px;
+        left: -116px;
+        bottom: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
+        background-image: url("../images/title-line.png");
+        -webkit-filter: brightness(0) contrast(100);
+        filter: brightness(0) contrast(100);
+    }
+}
+
+@media (min-width: 768px) {
+    .main-heading::after {
+        content: " ";
+        display: block;
+        position: absolute;
+        width: 105%;
+        height: 8px;
+        left: -47px;
+        bottom: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top center;
+        background-image: url("../images/title-line.png");
+        -webkit-filter: brightness(0) contrast(100);
+        filter: brightness(0) contrast(100);
+    }
+}
+
+
