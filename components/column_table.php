@@ -36,7 +36,7 @@ if (have_rows('column_table')):
 
             <div class="lg:py-20 py-9 text-center">
                 <span class="uppercase text-white bg-black py-4 px-14 md:text-[16px] text-xs rounded-full tracking-wider">
-                <?php echo $button_name; ?>
+                     <a href="<?php the_sub_field('button_link');?>"> <?php the_sub_field('button_name'); ?> </a>
                 </span>
             </div>
 
