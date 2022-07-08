@@ -1,8 +1,8 @@
 <?php if (!defined('ABSPATH')) {
     exit;
-} ?>
+}
 
-<?php get_header();
+get_header();
 
 if (have_rows('content')):
 
@@ -13,3 +13,5 @@ if (have_rows('content')):
 else :
     echo 'NO CONTENT';
 endif;
+
+get_footer();

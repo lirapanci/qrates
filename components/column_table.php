@@ -7,14 +7,8 @@ if (have_rows('column_table')):
     // loop through the rows of data
     while (have_rows('column_table')) : the_row();
     $color = get_sub_field('color');
-    ?>
+?>
         <div style="background-color: <?php echo $color;?>" class="border border-black flex flex-col">
-            <?php
-            $title = get_sub_field('title');
-            $paragraph = get_sub_field('paragraph');
-            $image = get_sub_field('image');
-            $button_name = get_sub_field('button_name');
-            ?>
 
             <div class="pt-20 text-center">
                 <span class="uppercase border-2 border-black p-2 text-[14px] font-semibold bg-white">
@@ -23,15 +17,15 @@ if (have_rows('column_table')):
             </div>
 
             <h4 class="py-9 font-semibold text-center md:text-[36px] text-2xl">
-                <?php echo $title;?>
+                <?php the_sub_field('title');?>
             </h4>
 
             <p class="text-center md:px-32 px-9 md:text-[20px] text-lg">
-                <?php echo $paragraph?>
+                <?php the_sub_field('paragraph');?>
             </p>
 
             <div class="lg:px-32 px-9 lg:my-9 my-3 flex flex-1 items-center">
-                <img src="<?php echo $image;?>" alt="">
+                <img src="<?php the_sub_field('image');?>" alt="">
             </div>
 
             <div class="lg:py-20 py-9 text-center">
