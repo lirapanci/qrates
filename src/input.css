@@ -5,69 +5,42 @@
 #menu-header-menu {
     display: flex;
 }
-
 #menu-header-menu li{
     margin-left: 15px;
 }
-
-
 h1 {
     text-align: center;
 }
-
-/* Sets the width for the accordion. Sets the margin to 90px on the top and bottom and auto to the left and right */
-
-
-
-/* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
-
 .accordion .label {
     cursor: pointer;
     display: flex;
 }
-
 .accordion .label::after {
     content:'\02C7';
     font-size: 30px;
     right: 90px;
     position: absolute;
 }
-
-
-/* Hides the content (height: 0), decreases font size, justifies text and adds transition */
-
 .accordion .content {
     position: relative;
     height: 0;
     overflow: hidden;
     transition: 0.5s;
 }
-
-/* Adds a horizontal line between the contents */
-
 .accordion hr {
     width: 100%;
     margin-left: 0;
     border: 1px solid grey;
 }
-
 .accordion .accordion-container.active .content {
     height: 150px;
-
 }
-
-/* Changes from plus sign to negative sign once active */
-
 .accordion .accordion-container.active .label::after {
     content: '\02C6';
     font-size: 30px;
     right: 90px;
     position: absolute;
-
 }
-
-
-
 .swiper-slide {
     text-align: center !important;
     align-items:center !important;
@@ -75,15 +48,10 @@ h1 {
     height: auto !important;
     border: black;
 }
-
-
-
 .swiper-slide img {
     width: 100%;
 }
-
 .swiper-pagination-bullet {
-
     color: black !important;
     font-size: 20px !important;
     width: 36px !important;
@@ -95,63 +63,47 @@ h1 {
     cursor: pointer !important;
     text-align: center !important;
 }
-
 .swiper-pagination-bullet-active{
     background: black !important;
     color: white !important;
 }
-
-
 .swiper-pagination{
     text-align: left !important;
     left: 10px !important;
 }
-
 .swiper-pagination-bullets{
     bottom: 30px !important;
 }
-
 .vinyls:hover .plate{
    margin-left: 0;
 }
-
 footer .widget-title{
     @apply text-lg uppercase font-bold lg:my-7 my-3
 }
-
 footer ul{
     @apply mb-6 mr-9
 }
-
 footer li{
     @apply my-2
 }
-
-
 @media (min-width: 480px) {
     #menu-header-menu{
         @apply hidden
     }
-
     #menu-header-menu.open{
-        @apply block font-bold text-3xl uppercase border-y-2 border-black px-9
+        @apply block font-bold text-3xl uppercase border-y-2 border-black
     }
-
     #menu-header-menu li{
         @apply my-3
     }
 }
-
 @media (min-width: 768px) {
 }
-
 @media (min-width: 1064px) {
     .swiper-pagination{
         left: 40px !important;
     }
-
     #menu-header-menu{
         @apply flex font-bold text-base uppercase font-bold
     }
-
 }

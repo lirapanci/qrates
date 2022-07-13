@@ -1,5 +1,4 @@
 jQuery(document).ready(function ($) {
-
     function toggleMenu() {
         $(".menu-btn").toggleClass("hidden");
         $(".x-btn").toggleClass("hidden");
@@ -8,7 +7,6 @@ jQuery(document).ready(function ($) {
 
     $(document).on("click", function (event) {
         var burgerNav = $(".burger-nav");
-
         if (event.target == burgerNav || burgerNav.has(event.target).length) {
             toggleMenu();
         } else {
@@ -29,7 +27,6 @@ jQuery(document).ready(function ($) {
                     activeContainers[j].classList.remove('active');
                 }
             }
-
             this.classList.toggle('active');
         })
     }
@@ -47,6 +44,5 @@ jQuery(document).ready(function ($) {
             crossFade: true
         },
     });
-
 });
 
