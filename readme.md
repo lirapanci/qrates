@@ -12,22 +12,22 @@ Libraries, Plugins and Frameworks used:
 - [Advanced Custom Fields PRO](https://www.advancedcustomfields.com/pro/) 
 - [Font Awesome](https://fontawesome.com/)  
 
-Hero Component
+**Hero Component**
 ![Hero Component!](demo/hero.png)
 
-Caption Component
+**Caption Component**
 ![Caption Component!](demo/caption.png)
 
-Column-Table Component
+**Column-Table Component**
 ![Column-Table Component!](demo/column-table.png)
 
-Services Component
+**Services Component**
 ![Services Component!](demo/services.png)
 
-Slider Component 
+**Slider Component**
 ![Slider Component!](demo/slider.png)
 
-Vinyl Component
+**Vinyl Component**
 ![Vinyl Component!](demo/vinyl.png)
 
 
