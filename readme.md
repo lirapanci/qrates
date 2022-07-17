@@ -3,6 +3,8 @@
 
 This is a project that I worked to practice my CSS/HTML/JS and WP theme development skills. The design is from [Frontend Practice Project](https://www.frontendpractice.com/projects/qrates).
 
+##[Demo URL](https://wordpress-113615-2758161.cloudwaysapps.com/)
+
 I have built the project using Advanced Custom Field PRO (ACF), specifically [Flexible Content](https://www.advancedcustomfields.com/resources/flexible-content/), in order to create a block-based editor, for easy-management and the ability to reuse the components as much as possible.
 
 Libraries, Plugins and Frameworks used:
@@ -12,6 +14,14 @@ Libraries, Plugins and Frameworks used:
 - [Advanced Custom Fields PRO](https://www.advancedcustomfields.com/pro/) 
 - [Font Awesome](https://fontawesome.com/)  
 
+### Installation & Build
+To install dependencies run ```npm install```.
+
+To watch changes ```npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch```
+
+To build for production ```npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify```
+
+### Components
 **Hero Component**
 ![Hero Component!](demo/hero.png)
 

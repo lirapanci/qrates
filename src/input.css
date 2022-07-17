@@ -96,9 +96,11 @@ footer li{
     #menu-header-menu li{
         @apply my-3
     }
+    .menu-header-menu-container{
+        @apply w-full
+    }
 }
-@media (min-width: 768px) {
-}
+
 @media (min-width: 1064px) {
     .swiper-pagination{
         left: 40px !important;
