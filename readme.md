@@ -3,7 +3,7 @@
 
 This is a project that I worked to practice my CSS/HTML/JS and WP theme development skills. The design is from [Frontend Practice Project](https://www.frontendpractice.com/projects/qrates).
 
-[Demo URL](https://wordpress-113615-2758161.cloudwaysapps.com/)
+[Demo URL](https://qrates-demo.aglipanci.com/)
 
 I have built the project using Advanced Custom Field PRO (ACF), specifically [Flexible Content](https://www.advancedcustomfields.com/resources/flexible-content/), in order to create a block-based editor, for easy-management and the ability to reuse the components as much as possible.
 
